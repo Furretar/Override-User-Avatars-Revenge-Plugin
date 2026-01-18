@@ -2,6 +2,7 @@ import { findByProps, findByStoreName } from "@vendetta/metro";
 import { FluxDispatcher } from "@vendetta/metro/common";
 import { storage } from "@vendetta/plugin";
 
+// tag added to all print statements to help with debugging with logcat on adb
 const TAG = "[custom-avatars]";
 
 let patches = [];
@@ -28,7 +29,7 @@ export function onLoad(): void {
 
 
 
-    // patch getUserAvatarSource
+    // patch getUserAvatarSource, overrides avatar in DMs and group chats
     if (avatarModule.getUserAvatarSource) {
         const originalGetUserAvatarSource = avatarModule.getUserAvatarSource;
         avatarModule.getUserAvatarSource = function (...args) {
@@ -50,7 +51,7 @@ export function onLoad(): void {
         patches.push(() => { avatarModule.getUserAvatarSource = originalGetUserAvatarSource; });
     }
 
-    // other patch
+    // patch getUserAvatarURL, overrides avatar in voice calls
     const originalGetUserAvatarURL = avatarModule.getUserAvatarURL;
     avatarModule.getUserAvatarURL = function (...args) {
         const user = args[0];
