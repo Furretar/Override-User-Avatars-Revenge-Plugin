@@ -1,9 +1,9 @@
 {
-  "name": "Override User Avatars test",
+  "name": "Override User Avatars",
   "description": "Allows you to set a custom profile picture for any Discord user.",
   "authors": [
     {
-        "name": "furretar",
+        "name": "Furretar",
         "id": "291303812516544524"
     }
 ],

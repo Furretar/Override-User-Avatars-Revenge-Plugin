@@ -1,7 +1,9 @@
-# Vendetta Plugins Template
-This repo contains a template for creating [Vendetta](https://github.com/vendetta-mod/Vendetta) plugins.
+# Revenge Plugin Template
+Created with the creating [Vendetta plugin template](https://github.com/vendetta-mod/Vendetta).
 
 # How to install?
-Paste a plugin URL into the Plugins page of Vendetta, following a basic format of:
+Paste this link into the Install Plugin section of Revenge client.
 
-https://`YOUR_GITHUB_USERNAME`.github.io/`REPO_NAME`/`PLUGIN_NAME`
+https://furretar.github.io/Override-User-Avatars-Revenge-Plugin/Override-User-Avatars
+
+Only allows for changing one user's profile, feel free to modify and pull request.
