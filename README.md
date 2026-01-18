@@ -1,5 +1,5 @@
 # Revenge Plugin Template
-Created with the creating [Vendetta plugin template](https://github.com/vendetta-mod/Vendetta).
+Created with the [Vendetta plugin template](https://github.com/vendetta-mod/Vendetta).
 
 # How to install?
 Paste this link into the Install Plugin section of Revenge client.
