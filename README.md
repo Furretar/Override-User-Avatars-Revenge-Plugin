@@ -5,6 +5,9 @@ https://furretar.github.io/Override-User-Avatars-Revenge-Plugin/Override-User-Av
 
 Only allows for changing one user's profile, feel free to modify and pull request.
 
+# Known Issues
+Does not change the profile picture on notifications.
+
 # Revenge Plugin Template
 Created with the [Vendetta plugin template](https://github.com/vendetta-mod/Vendetta).
 
